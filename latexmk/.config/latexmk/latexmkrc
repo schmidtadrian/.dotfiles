@@ -1,0 +1,4 @@
+# https://mg.readthedocs.io/latexmk.html
+$pdf_mode = 1;      # Tex -> Pdf
+$out_dir = 'out';   # output to ./out
+$pdflatex = 'pdflatex -interaction=nonstopmode -c';

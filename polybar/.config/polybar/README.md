@@ -1,0 +1,2 @@
+# Polybar
+Requires Nerd Font
