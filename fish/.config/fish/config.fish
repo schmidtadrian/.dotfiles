@@ -7,6 +7,7 @@ abbr g 'git'
 abbr ga 'git add'
 abbr gc 'git commit -m'
 abbr gs 'git status'
+abbr gw 'git worktree'
 abbr uni '~/Documents/uni/'
 
 abbr p 'ping'
