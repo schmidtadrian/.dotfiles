@@ -13,6 +13,9 @@ abbr uni '~/Documents/uni/'
 abbr p 'ping'
 abbr ns 'nslookup'
 
+# See tmux.conf, required for correct colors
+alias tmux="export TERM=xterm-256color; /usr/bin/tmux"
+
 if status is-interactive
     # Commands to run in interactive sessions can go here
 end
