@@ -28,3 +28,7 @@ vim.keymap.set('n', '<leader>fsA', builtin.lsp_document_symbols, 	{ desc = '[F]i
 vim.keymap.set('n', '<leader>fsV', function () builtin.lsp_document_symbols({symbols={'variable', 'field'}}) end, 	{ desc = '[F]ind [S]ymbols [V]ariables'})
 vim.keymap.set('n', '<leader>fsM', function () builtin.lsp_document_symbols({symbols={'method', 'function'}}) end, 	{ desc = '[F]ind [S]ymbols [M]ethod'})
 vim.keymap.set('n', '<leader>fsC', function () builtin.lsp_document_symbols({symbols={'class'}}) end, 	{ desc = '[F]ind [S]ymbols [C]lass'})
+
+-- quickfix/location list
+vim.keymap.set('n', '<leader>fq', builtin.quickfix, { desc = '[F]ind [Q]uickfix' })
+vim.keymap.set('n', '<leader>fl', builtin.loclist, { desc = '[F]ind [L]ocation list' })
