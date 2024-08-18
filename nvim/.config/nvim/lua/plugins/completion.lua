@@ -11,7 +11,7 @@ return {
         opts = {
             hint_enable = false, -- disable ugly panda
             handler_opts = {
-                border = "none" -- double, rounded, single, shadow, none, or a table of borders
+                border = "rounded" -- double, rounded, single, shadow, none, or a table of borders
             },
             toggle_key = "<M-s>"
         },

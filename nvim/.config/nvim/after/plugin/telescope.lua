@@ -3,7 +3,7 @@ local builtin = require('telescope.builtin')
 -- files & buffers
 vim.keymap.set('n', '<leader>ff', builtin.find_files, 	{ desc = '[F]ind [F]iles'})
 vim.keymap.set('n', '<leader>fp', builtin.git_files, 	{ desc = '[F]ind [P]roject files (git)'})
-vim.keymap.set('n', '<leader>fr', builtin.oldfiles, 	{ desc = '[F]ind [R]ecent files'})
+-- vim.keymap.set('n', '<leader>fr', builtin.oldfiles, 	{ desc = '[F]ind [R]ecent files'})
 vim.keymap.set('n', '<leader>fb', builtin.buffers, 	{ desc = '[F]ind [B]uffers'})
 
 -- fuzzy find
@@ -16,6 +16,9 @@ vim.keymap.set('n', '<leader>fh', builtin.help_tags, 	{ desc = '[F]ind [H]elp'})
 vim.keymap.set('n', '<leader>fk', builtin.keymaps, 	{ desc = '[F]ind [K]eymaps'})
 vim.keymap.set('n', '<leader>fd', builtin.diagnostics, 	{ desc = '[F]ind [D]iagnostics'})
 vim.keymap.set('n', '<leader>ft', builtin.colorscheme, 	{ desc = '[F]ind [T]heme'})
+
+-- lsp
+vim.keymap.set('n', '<leader>fr', builtin.lsp_references, 	{ desc = '[F]ind [R]eferences'})
 
 -- workspace symbols (lowercase)
 vim.keymap.set('n', '<leader>fsa', builtin.lsp_workspace_symbols, 	{ desc = '[F]ind [S]ymbols [A]ll'})
