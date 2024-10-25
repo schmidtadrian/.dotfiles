@@ -1,0 +1,2 @@
+CompileFlags:                     # Tweak the parse settings
+  Add: [-I/usr/bin/../lib/gcc/x86_64-redhat-linux/14/../../../../include/c++/14/x86_64-redhat-linux]
